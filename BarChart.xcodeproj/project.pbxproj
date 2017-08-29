@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EA85F161F551A920013FA84 /* BarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA85F151F551A920013FA84 /* BarCell.swift */; };
 		4EC75A2C1F550FE1006D3011 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC75A2B1F550FE1006D3011 /* AppDelegate.swift */; };
 		4EC75A2E1F550FE1006D3011 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC75A2D1F550FE1006D3011 /* BarChartViewController.swift */; };
 		4EC75A341F550FE1006D3011 /* BarChart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EC75A321F550FE1006D3011 /* BarChart.xcdatamodeld */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EA85F151F551A920013FA84 /* BarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarCell.swift; sourceTree = "<group>"; };
 		4EC75A281F550FE1006D3011 /* BarChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC75A2B1F550FE1006D3011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EC75A2D1F550FE1006D3011 /* BarChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				4EC75A2B1F550FE1006D3011 /* AppDelegate.swift */,
+				4EA85F151F551A920013FA84 /* BarCell.swift */,
 				4EC75A2D1F550FE1006D3011 /* BarChartViewController.swift */,
 				4EC75A351F550FE1006D3011 /* Assets.xcassets */,
 				4EC75A371F550FE1006D3011 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EC75A2E1F550FE1006D3011 /* BarChartViewController.swift in Sources */,
+				4EA85F161F551A920013FA84 /* BarCell.swift in Sources */,
 				4EC75A2C1F550FE1006D3011 /* AppDelegate.swift in Sources */,
 				4EC75A341F550FE1006D3011 /* BarChart.xcdatamodeld in Sources */,
 			);
@@ -293,6 +297,7 @@
 				4EC75A3F1F550FE1006D3011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
